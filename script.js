@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Paste your Google Sheet published CSV URLs here
     // Make sure they are published correctly as CSV
     const firstAidersUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSYiHfACNiF3WYMAMKhx2XHdUFP3ZPYx6DSJV7WW4EZzAsoolQE75HbZPNcgpCK56Sy7o9LVDmodesI/pub?gid=0&single=true&output=csv'; 
-    const fireWardensUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSYiHfACNiF3WYMAMKhx2XHdUFP3ZPYx6DSJV7WW4EZzAsoolQE75HbZPNcgpCK56Sy7o9LVDmodesI/pub?gid=1769995281&single=true&output=csv';
+    const fireWardensUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSYiHfACNiF3WYMAMKhx2XHdUFP3ZPYx6DSJV7WW4EZzAsoolQE75HbZPNcgpCK56Sy7o9LVDmodesI/pubhtml?gid=1769995281&single=true';
 
     const firstAidersList = document.getElementById('first-aiders-list');
     const fireWardensList = document.getElementById('fire-wardens-list');
